@@ -1,0 +1,28 @@
+{
+	"name": "KeepAwake",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "tsc & mocha dist"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		
+		"robotjs": "^0.6.0",
+		"ts-mocha": "^10.0.0"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.3.14",
+		"@types/jest": "^29.5.12",
+		"@types/mocha": "^10.0.6",
+		"@types/node": "^20.12.3",
+		"@types/sinon": "^17.0.3",
+		"chai": "^5.1.0",
+		"mocha": "^10.4.0",
+		"sinon": "^17.0.1",
+		"typescript": "^5.4.3"
+	}
+}
